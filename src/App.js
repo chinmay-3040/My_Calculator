@@ -55,8 +55,8 @@ const App = () => {
     <div className="Navbar">
       <h1>My Calculator</h1>
       <ul>
-        <li><a onClick={handleDark} >Dark</a></li>
-        <li><a onClick={handleLight} >Light</a></li>
+        <li><button onClick={handleDark} style={{ backgroundColor: "rgb(42, 42, 45)" }} >Dark</button></li>
+        <li><button onClick={handleLight} style={{ backgroundColor: "rgb(42, 42, 45)" }}>Light</button></li>
         {/* <li>Theme 3</li> */}
       </ul>
     </div>

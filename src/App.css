@@ -56,7 +56,7 @@ body {
 .Navbar ul li{
   margin-right: 15px;
 }
-.Navbar ul li a{
+.Navbar ul li button{
   text-decoration: none;
   color: white;
   cursor: pointer;
