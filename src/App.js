@@ -90,7 +90,7 @@ const App = () => {
         </div>
         <Button symbol="Clear" color={buttonColor}  handleClick={resetInput} />
       </div>
-      <div className="Footer" style={{ color: textColor }} >Created by Chinmay Dawalbaje</div>
+      <div className="Footer" style={{ color: textColor }} >Created by <a style={{ color: "#b06005" }} href="https://stunning-faloodeh-c42a9b.netlify.app/">Chinmay Dawalbaje</a></div>
     </div>
     </div>
   );
